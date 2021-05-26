@@ -1,0 +1,2 @@
+INSERT INTO stock (id, name, price, variation, date) VALUES (4, 'SANB11', 38.18, 0.02, '2021-05-12');
+INSERT INTO stock (id, name, price, variation, date) VALUES (4, 'SANB4', 27.10, -10.50, '2021-05-15');

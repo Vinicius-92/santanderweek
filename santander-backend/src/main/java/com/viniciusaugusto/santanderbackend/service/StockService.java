@@ -63,7 +63,7 @@ public class StockService {
     }
 
     @Transactional(readOnly = true, propagation = Propagation.SUPPORTS)
-    private StockDTO findById(Long id) {
+    public StockDTO findById(Long id) {
         return repository.findById(id)
                 .map(mapper::toDto)
                 .orElseThrow(NotFoundException::new);
