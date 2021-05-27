@@ -5,7 +5,7 @@
     </div>
 
     <div class="stock-value-container">
-        <span class="value">{{stock.price}}</span>
+        <span class="value">{{stock.price | currency:'BRL'}}</span>
         <span class="variation" [class.negative-vartiation]="stock.variation < 0">
             {{ variation }}
         </span>
