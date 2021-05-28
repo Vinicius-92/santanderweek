@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer h2 {
+    padding-left: 10px;
+    padding-right: 35px;
+    color: white;
+}
+
+.footer img {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        justify-content: center;
+    }
+}
