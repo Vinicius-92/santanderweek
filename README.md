@@ -13,6 +13,6 @@ You can test the endpoints at Swagger, link below:
 [![Click here for documentation](https://raw.githubusercontent.com/swagger-api/swagger.io/wordpress/images/assets/SW-logo-clr.png)](https://satanderweek.herokuapp.com/swagger-ui.html)
 
 ### Frontend
-[![Screenshot](https://raw.githubusercontent.com/Vinicius-92/santanderweek/main/SantanderWeek.png?token=ANONR7QE74QSCDF65MT6SZ3AWBK7M)](https://santanderweek.vercel.app/)
+[![Screenshot](https://raw.githubusercontent.com/Vinicius-92/santanderweek/main/SantanderWeek.png)](https://santanderweek.vercel.app/)
 
 Frontend Deployed at Vercel, click on the image to visit. The dashboard may take a litle time to render, take the time to get a coffee. ☕
