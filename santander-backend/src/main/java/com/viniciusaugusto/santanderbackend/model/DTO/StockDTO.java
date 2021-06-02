@@ -9,7 +9,6 @@ import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Data
-
 public class StockDTO {
 
     private Long id;
@@ -26,7 +25,6 @@ public class StockDTO {
     @Digits(integer = 6, fraction = 2)
     private Double variation;
 
-//    @NotNull
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     private LocalDate date;
 }
